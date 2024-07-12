@@ -15,3 +15,5 @@ function Ourstory() {
     </>
   );
 }
+
+export default Ourstory;
