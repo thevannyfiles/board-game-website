@@ -1,4 +1,6 @@
 import Header from "./Components/Header.jsx";
+import Ourstory from "./pages/ourstory.jsx"; 
+
 
 
 function App() {
@@ -6,6 +8,7 @@ function App() {
     <>
       <div>
         <Header />
+        <Ourstory />
       </div>
     </>
   );
