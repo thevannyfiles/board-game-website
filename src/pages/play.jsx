@@ -1,5 +1,4 @@
 import React from 'react';
-import './play.css'; //will add later
 
 function PlayPage() {
   return (
