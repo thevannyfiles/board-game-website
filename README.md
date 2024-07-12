@@ -27,9 +27,9 @@ Tailwind expedited the styling process of the site. We also included a calendar 
 
 ## Authors
 
-- [@Dcastor21](https://github.com/Dcastor21)
-- [@thevannyfiles](https://github.com/thevannyfiles)
-- [@cplusinsanity](https://github.com/cplusinsanity)
+- [@Dcastor21](https://github.com/Dcastor21) - Lead Developer
+- [@thevannyfiles](https://github.com/thevannyfiles) - Designer/Jr. Developer
+- [@cplusinsanity](https://github.com/cplusinsanity) - Designer/Jr. Developer
 
 
 
