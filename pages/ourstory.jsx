@@ -1,6 +1,6 @@
 
 
-function ourStory() {
+function Ourstory() {
     return (
         <>
             <h1>Our Story</h1>
