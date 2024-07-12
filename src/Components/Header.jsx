@@ -77,7 +77,7 @@ export default function Example() {
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Sip-N-Play </span>
             <img
-              alt=""
+              alt="sin"
               src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
               className="h-8 w-auto"
             />
@@ -94,6 +94,12 @@ export default function Example() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            Features
+          </a>
+          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            Marketplace
+          </a>
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
               Menu
@@ -149,15 +155,11 @@ export default function Example() {
               </div>
             </PopoverPanel>
           </Popover>
-
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Features
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Marketplace
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Company
+          <a
+            href="https://squareup.com/gift/SWP5P3242C38Q/order"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
+            Gift Cards
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -166,6 +168,8 @@ export default function Example() {
           </a>
         </div>
       </nav>
+
+      {/* Mobile Menu */}
       <Dialog
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
