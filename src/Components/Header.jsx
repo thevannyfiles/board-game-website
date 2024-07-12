@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <NavLink
-                  to="/"
+                  to="/home"
                   className={({ isActive }) =>
                     isActive
                       ? "bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -144,7 +144,7 @@ const Navbar = () => {
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <NavLink
-              to="/"
+              to="/home"
               className={({ isActive }) =>
                 isActive
                   ? "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"

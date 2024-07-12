@@ -3,11 +3,11 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // will add later
 
 // import images from their locations in the repo
-import Arkham-Horror-LCG.jpg from 'src/assets/Game Images/Arkham-Horror-LCG.jpg'; 
-import Roll-for-the-Galaxy.png from 'src/assets/Game Images/Roll-for-the-Galaxy.png'; 
-import Spirit-Island.jpg from 'src/assets/Game Images/Spirit-Island.jpg'; 
-import Stone-Age.jpg from 'src/assets/Game Images/Stone-Age.jpg'; 
-import Survive.jpg from 'src/assets/Game Images/Survive.jpg'; 
+import Arkham-Horror-LCG from 'src/assets/Game Images/Arkham-Horror-LCG.jpg'; 
+import Roll-for-the-Galaxy from 'src/assets/Game Images/Roll-for-the-Galaxy.png'; 
+import Spirit-Island from 'src/assets/Game Images/Spirit-Island.jpg'; 
+import Stone-Age from 'src/assets/Game Images/Stone-Age.jpg'; 
+import Survive from 'src/assets/Game Images/Survive.jpg'; 
 
 
 function GamesImageCarousel() {
