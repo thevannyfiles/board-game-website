@@ -42,8 +42,12 @@ function OurStory() {
   );
 }
 
+<<<<<<< HEAD:src/pages/ourstory.jsx
 export default OurStory;
 
 
 
 
+=======
+export default Ourstory;
+>>>>>>> faf462e4ad2b956aad9872364ee8c10ce7e3d15f:src/pages/About.jsx

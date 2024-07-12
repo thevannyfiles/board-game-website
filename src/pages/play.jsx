@@ -1,5 +1,6 @@
 import React from 'react';
-import './play.css'; //will add later
+import Footer from './Components/Footer';
+
 
 function PlayPage() {
   return (
