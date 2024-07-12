@@ -29,13 +29,13 @@ import {
 
 const products = [
   {
-    name: "Analytics",
+    name: "About",
     description: "Get a better understanding of your traffic",
     href: "#",
     icon: ChartPieIcon,
   },
   {
-    name: "Engagement",
+    name: "Reservations",
     description: "Speak directly to your customers",
     href: "#",
     icon: CursorArrowRaysIcon,
@@ -75,7 +75,7 @@ export default function Example() {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Sip-N-Play </span>
             <img
               alt=""
               src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
@@ -96,7 +96,7 @@ export default function Example() {
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Product
+              Menu
               <ChevronDownIcon
                 aria-hidden="true"
                 className="h-5 w-5 flex-none text-gray-400"
@@ -228,10 +228,10 @@ export default function Example() {
                   Marketplace
                 </a>
                 <a
-                  href="#"
+                  href="https://squareup.com/gift/SWP5P3242C38Q/order"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  Gift Cards
                 </a>
               </div>
               <div className="py-6">
